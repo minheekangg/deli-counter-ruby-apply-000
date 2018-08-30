@@ -33,10 +33,10 @@ def take_a_number(arr, name)
 end
 
   def now_serving(arr)
-      if arr.length == 0
+      if arr == 0
         puts "There is nobody waiting to be served!"
       else
-        arr.length > 0
+        arr > 0
         puts "Currently serving #{arr.shift}."
           end
     end
