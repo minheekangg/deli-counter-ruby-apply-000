@@ -26,7 +26,7 @@ end
 
 i = 0
 def take_a_number(arr, name)
-  i << 1
+  i = i+ 1
   puts "You are number #{i} in line."
   end
 end
