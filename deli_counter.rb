@@ -27,9 +27,10 @@ end
 i = 0
 def take_a_number(arr, name)
   i = i + 1
-  puts "You are number #{i} in line."
+  puts "You are number #{i}."
   end
 end
+
   def now_serving(arr)
       if arr.length == 0
         puts "There is nobody waiting to be served!"
