@@ -23,9 +23,11 @@ while i < arr.length
 end
 end
 
+
+i = 0
 def take_a_number(arr, name)
-  arr << arr
-  puts "You are number #{arr.length} in line."
+  i+=1
+  puts "You are number #{i} in line."
   end
 
   def now_serving(arr)
