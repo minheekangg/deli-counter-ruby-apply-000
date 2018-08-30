@@ -27,7 +27,7 @@ end
 i = 0
 def take_a_number(arr, name)
   i = i + 1
-  arr << name
+  arr << i
   puts "You are number #{i}."
   end
 end
